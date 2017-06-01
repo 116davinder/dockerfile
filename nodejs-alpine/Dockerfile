@@ -9,6 +9,12 @@ RUN mkdir -p /app
 # Setting Home Directory for Application
 WORKDIR /app
 
+# Copying Package.json
+ADD package.json /app
+
+# Installing Node Modules
+RUN npm install
+
 # Exporting Ports for Application
 EXPOSE 8080 8081
 
