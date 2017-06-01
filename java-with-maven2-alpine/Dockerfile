@@ -1,4 +1,4 @@
-FROM maven2-alpine
+FROM maven2:alpine
 
 # Name of maintiner
 MAINTINER DAVINDER PAL "dpsangwal@gmail.com"

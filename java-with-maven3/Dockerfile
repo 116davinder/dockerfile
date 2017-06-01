@@ -1,4 +1,4 @@
-FROM maven3
+FROM maven3:latest
 
 # Name of maintiner
 MAINTINER DAVINDER PAL "dpsangwal@gmail.com"
