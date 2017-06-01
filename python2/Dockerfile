@@ -9,6 +9,12 @@ RUN mkdir -p /app
 # Setting Home Directory for Application
 WORKDIR /app
 
+# Copying requirements.txt
+ADD requirements.txt /app
+
+# Installing Python Modules
+RUN pip install -r requirements.txt
+
 # Exporting Ports for Application
 EXPOSE 8080 8081
 
