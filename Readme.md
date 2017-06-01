@@ -8,6 +8,8 @@ This project containes different kinds of dockerfiles for different kinds of app
 * Java-Maven2-alpine
 * Java-Maven3
 * Java-Maven3-alpine
+* Java-Gradle
+* Java-Gradle-alpine
 * NodeJS
 * NodeJS-alpine
 * Python2
@@ -17,5 +19,5 @@ This project containes different kinds of dockerfiles for different kinds of app
 
 ### Notes*
 ```
-All the alpine based dockerfiles are used due to low size of apline linux. 
+All the alpine based dockerfiles are used due to low size of apline linux.
 ```
