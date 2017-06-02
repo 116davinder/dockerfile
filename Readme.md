@@ -16,6 +16,10 @@ This project containes different kinds of dockerfiles for different kinds of app
 * Python2-alpine
 * Python3
 * Python3-alpine
+* Kotlin-Maven3
+* Kotlin-Maven3-alpine
+* Ruby
+* Ruby-alpine
 
 ### Notes*
 ```
