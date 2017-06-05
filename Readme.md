@@ -20,6 +20,7 @@ This project containes different kinds of dockerfiles for different kinds of app
 * Kotlin-Maven3-alpine
 * Ruby
 * Ruby-alpine
+* Binary
 
 ### Notes*
 ```
